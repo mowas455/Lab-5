@@ -1,4 +1,4 @@
-dataSet = read.csv("APIResponse.csv")
+dataSet = read.csv("https://github.com/mowas455/Lab-5/blob/main/APIResponse.csv")
 colnames(dataSet)
 
 dataSet$LeadSponsorClass = as.factor(dataSet$LeadSponsorClass)
