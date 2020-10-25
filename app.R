@@ -1,4 +1,4 @@
-dataSet = read.csv("/APIResponse.csv")
+dataSet = read.csv("APIResponse.csv")
 #colnames(dataSet)
 
 dataSet$LeadSponsorClass = as.factor(dataSet$LeadSponsorClass)
